@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2860E328111B887F00E27156 /* AppDelegate_Phone.m in Sources */ = {isa = PBXBuildFile; fileRef = 2860E326111B887F00E27156 /* AppDelegate_Phone.m */; };
+		2860E329111B887F00E27156 /* MainWindow_Phone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2860E327111B887F00E27156 /* MainWindow_Phone.xib */; };
+		2860E32E111B888700E27156 /* AppDelegate_Pad.m in Sources */ = {isa = PBXBuildFile; fileRef = 2860E32C111B888700E27156 /* AppDelegate_Pad.m */; };
+		2860E32F111B888700E27156 /* MainWindow_Pad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2860E32D111B888700E27156 /* MainWindow_Pad.xib */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		FF7304391154DC0700E82C03 /* centerBar.png in Resources */ = {isa = PBXBuildFile; fileRef = FF7304381154DC0700E82C03 /* centerBar.png */; };
+		FF7BBD361154435B00393AF0 /* key.png in Resources */ = {isa = PBXBuildFile; fileRef = FF7BBD341154435B00393AF0 /* key.png */; };
+		FF7BBD3F115456AC00393AF0 /* key1.png in Resources */ = {isa = PBXBuildFile; fileRef = FF7BBD39115456AC00393AF0 /* key1.png */; };
+		FF7BBD40115456AC00393AF0 /* key2.png in Resources */ = {isa = PBXBuildFile; fileRef = FF7BBD3A115456AC00393AF0 /* key2.png */; };
+		FF7BBD41115456AC00393AF0 /* key3.png in Resources */ = {isa = PBXBuildFile; fileRef = FF7BBD3B115456AC00393AF0 /* key3.png */; };
+		FF7BBD42115456AC00393AF0 /* key4.png in Resources */ = {isa = PBXBuildFile; fileRef = FF7BBD3C115456AC00393AF0 /* key4.png */; };
+		FF7BBD43115456AC00393AF0 /* key5.png in Resources */ = {isa = PBXBuildFile; fileRef = FF7BBD3D115456AC00393AF0 /* key5.png */; };
+		FF7BBD44115456AC00393AF0 /* keyS.png in Resources */ = {isa = PBXBuildFile; fileRef = FF7BBD3E115456AC00393AF0 /* keyS.png */; };
+		FF7BBD9111545D5500393AF0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7BBD9011545D5500393AF0 /* AudioToolbox.framework */; };
+		FF7BBDE8115461E300393AF0 /* KeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7BBDE6115461E300393AF0 /* KeyViewController.m */; };
+		FF7BBDE9115461E300393AF0 /* KeyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF7BBDE7115461E300393AF0 /* KeyViewController.xib */; };
+		FF807E75115581350014B3E7 /* key1_Phone.png in Resources */ = {isa = PBXBuildFile; fileRef = FF807E6F115581350014B3E7 /* key1_Phone.png */; };
+		FF807E76115581350014B3E7 /* key2_Phone.png in Resources */ = {isa = PBXBuildFile; fileRef = FF807E70115581350014B3E7 /* key2_Phone.png */; };
+		FF807E77115581350014B3E7 /* key3_Phone.png in Resources */ = {isa = PBXBuildFile; fileRef = FF807E71115581350014B3E7 /* key3_Phone.png */; };
+		FF807E78115581350014B3E7 /* key4_Phone.png in Resources */ = {isa = PBXBuildFile; fileRef = FF807E72115581350014B3E7 /* key4_Phone.png */; };
+		FF807E79115581350014B3E7 /* key5_Phone.png in Resources */ = {isa = PBXBuildFile; fileRef = FF807E73115581350014B3E7 /* key5_Phone.png */; };
+		FF807E7A115581350014B3E7 /* keyS_Phone.png in Resources */ = {isa = PBXBuildFile; fileRef = FF807E74115581350014B3E7 /* keyS_Phone.png */; };
+		FF807E7C115581440014B3E7 /* key_Phone.png in Resources */ = {isa = PBXBuildFile; fileRef = FF807E7B115581440014B3E7 /* key_Phone.png */; };
+		FF807EFB115591890014B3E7 /* Piano-3C.aif in Resources */ = {isa = PBXBuildFile; fileRef = FF807EF2115591890014B3E7 /* Piano-3C.aif */; };
+		FF807EFC115591890014B3E7 /* Piano-3Cs.aif in Resources */ = {isa = PBXBuildFile; fileRef = FF807EF3115591890014B3E7 /* Piano-3Cs.aif */; };
+		FF807EFD115591890014B3E7 /* Piano-3D.aif in Resources */ = {isa = PBXBuildFile; fileRef = FF807EF4115591890014B3E7 /* Piano-3D.aif */; };
+		FF807EFE115591890014B3E7 /* Piano-3Ds.aif in Resources */ = {isa = PBXBuildFile; fileRef = FF807EF5115591890014B3E7 /* Piano-3Ds.aif */; };
+		FF807EFF115591890014B3E7 /* Piano-3E.aif in Resources */ = {isa = PBXBuildFile; fileRef = FF807EF6115591890014B3E7 /* Piano-3E.aif */; };
+		FF807F00115591890014B3E7 /* Piano-3F.aif in Resources */ = {isa = PBXBuildFile; fileRef = FF807EF7115591890014B3E7 /* Piano-3F.aif */; };
+		FF807F01115591890014B3E7 /* Piano-3Fs.aif in Resources */ = {isa = PBXBuildFile; fileRef = FF807EF8115591890014B3E7 /* Piano-3Fs.aif */; };
+		FF807F02115591890014B3E7 /* Piano-3G.aif in Resources */ = {isa = PBXBuildFile; fileRef = FF807EF9115591890014B3E7 /* Piano-3G.aif */; };
+		FF807F03115591890014B3E7 /* Piano-3Gs.aif in Resources */ = {isa = PBXBuildFile; fileRef = FF807EFA115591890014B3E7 /* Piano-3Gs.aif */; };
+		FF807F07115591910014B3E7 /* Piano-3A.aif in Resources */ = {isa = PBXBuildFile; fileRef = FF807F04115591910014B3E7 /* Piano-3A.aif */; };
+		FF807F08115591910014B3E7 /* Piano-3As.aif in Resources */ = {isa = PBXBuildFile; fileRef = FF807F05115591910014B3E7 /* Piano-3As.aif */; };
+		FF807F09115591910014B3E7 /* Piano-3B.aif in Resources */ = {isa = PBXBuildFile; fileRef = FF807F06115591910014B3E7 /* Piano-3B.aif */; };
+		FF807F131155919A0014B3E7 /* Piano-4C.aif in Resources */ = {isa = PBXBuildFile; fileRef = FF807F0A1155919A0014B3E7 /* Piano-4C.aif */; };
+		FF807F141155919A0014B3E7 /* Piano-4Cs.aif in Resources */ = {isa = PBXBuildFile; fileRef = FF807F0B1155919A0014B3E7 /* Piano-4Cs.aif */; };
+		FF807F151155919A0014B3E7 /* Piano-4D.aif in Resources */ = {isa = PBXBuildFile; fileRef = FF807F0C1155919A0014B3E7 /* Piano-4D.aif */; };
+		FF807F161155919A0014B3E7 /* Piano-4Ds.aif in Resources */ = {isa = PBXBuildFile; fileRef = FF807F0D1155919A0014B3E7 /* Piano-4Ds.aif */; };
+		FF807F171155919A0014B3E7 /* Piano-4E.aif in Resources */ = {isa = PBXBuildFile; fileRef = FF807F0E1155919A0014B3E7 /* Piano-4E.aif */; };
+		FF807F181155919A0014B3E7 /* Piano-4F.aif in Resources */ = {isa = PBXBuildFile; fileRef = FF807F0F1155919A0014B3E7 /* Piano-4F.aif */; };
+		FF807F191155919A0014B3E7 /* Piano-4Fs.aif in Resources */ = {isa = PBXBuildFile; fileRef = FF807F101155919A0014B3E7 /* Piano-4Fs.aif */; };
+		FF807F1A1155919A0014B3E7 /* Piano-4G.aif in Resources */ = {isa = PBXBuildFile; fileRef = FF807F111155919A0014B3E7 /* Piano-4G.aif */; };
+		FF807F1B1155919A0014B3E7 /* Piano-4Gs.aif in Resources */ = {isa = PBXBuildFile; fileRef = FF807F121155919A0014B3E7 /* Piano-4Gs.aif */; };
+		FF807F1F115591A20014B3E7 /* Piano-4A.aif in Resources */ = {isa = PBXBuildFile; fileRef = FF807F1C115591A20014B3E7 /* Piano-4A.aif */; };
+		FF807F20115591A20014B3E7 /* Piano-4As.aif in Resources */ = {isa = PBXBuildFile; fileRef = FF807F1D115591A20014B3E7 /* Piano-4As.aif */; };
+		FF807F21115591A20014B3E7 /* Piano-4B.aif in Resources */ = {isa = PBXBuildFile; fileRef = FF807F1E115591A20014B3E7 /* Piano-4B.aif */; };
+		FF807F23115591A90014B3E7 /* Piano-5C.aif in Resources */ = {isa = PBXBuildFile; fileRef = FF807F22115591A90014B3E7 /* Piano-5C.aif */; };
+		FF92A19C1155768700930E6D /* KeyViewController_Phone.m in Sources */ = {isa = PBXBuildFile; fileRef = FF92A19A1155768700930E6D /* KeyViewController_Phone.m */; };
+		FF92A19D1155768700930E6D /* KeyViewController_Phone.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF92A19B1155768700930E6D /* KeyViewController_Phone.xib */; };
+		FF92A1A91155770400930E6D /* KeySound.m in Sources */ = {isa = PBXBuildFile; fileRef = FF92A1A81155770400930E6D /* KeySound.m */; };
+		FFD89C2F1156F2990065424B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FFD89C2E1156F2990065424B /* Default.png */; };
+		FFD89C391156F4720065424B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FFD89C381156F4720065424B /* Default.png */; };
+		FFD89C5F115702D60065424B /* key1_T.png in Resources */ = {isa = PBXBuildFile; fileRef = FFD89C58115702D60065424B /* key1_T.png */; };
+		FFD89C60115702D60065424B /* key2_T.png in Resources */ = {isa = PBXBuildFile; fileRef = FFD89C59115702D60065424B /* key2_T.png */; };
+		FFD89C61115702D60065424B /* key3_T.png in Resources */ = {isa = PBXBuildFile; fileRef = FFD89C5A115702D60065424B /* key3_T.png */; };
+		FFD89C62115702D60065424B /* key4_T.png in Resources */ = {isa = PBXBuildFile; fileRef = FFD89C5B115702D60065424B /* key4_T.png */; };
+		FFD89C63115702D60065424B /* key5_T.png in Resources */ = {isa = PBXBuildFile; fileRef = FFD89C5C115702D60065424B /* key5_T.png */; };
+		FFD89C64115702D60065424B /* key6_T.png in Resources */ = {isa = PBXBuildFile; fileRef = FFD89C5D115702D60065424B /* key6_T.png */; };
+		FFD89C65115702D60065424B /* keyS_T.png in Resources */ = {isa = PBXBuildFile; fileRef = FFD89C5E115702D60065424B /* keyS_T.png */; };
+		FFD89D5111571A4E0065424B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FFD89D5011571A4E0065424B /* icon.png */; };
+		FFD89D9A1157231C0065424B /* icon_ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = FFD89D991157231C0065424B /* icon_ipad.png */; };
+		FFE1CC431156CDCE00C7B733 /* refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = FFE1CC421156CDCD00C7B733 /* refresh.png */; };
+		FFE1CC671156D5D000C7B733 /* key6_Phone.png in Resources */ = {isa = PBXBuildFile; fileRef = FFE1CC661156D5D000C7B733 /* key6_Phone.png */; };
+		FFE1CC691156D5E100C7B733 /* key6.png in Resources */ = {isa = PBXBuildFile; fileRef = FFE1CC681156D5E100C7B733 /* key6.png */; };
+		FFE1CC731156D96A00C7B733 /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = FFE1CC721156D96A00C7B733 /* up.png */; };
+		FFE1CC751156D96F00C7B733 /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = FFE1CC741156D96F00C7B733 /* down.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* FunPiano.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunPiano.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2860E325111B887F00E27156 /* AppDelegate_Phone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate_Phone.h; sourceTree = "<group>"; };
+		2860E326111B887F00E27156 /* AppDelegate_Phone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate_Phone.m; sourceTree = "<group>"; };
+		2860E327111B887F00E27156 /* MainWindow_Phone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow_Phone.xib; sourceTree = "<group>"; };
+		2860E32B111B888700E27156 /* AppDelegate_Pad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate_Pad.h; sourceTree = "<group>"; };
+		2860E32C111B888700E27156 /* AppDelegate_Pad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate_Pad.m; sourceTree = "<group>"; };
+		2860E32D111B888700E27156 /* MainWindow_Pad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow_Pad.xib; sourceTree = "<group>"; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Shared/main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* FunPiano_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunPiano_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* FunPiano-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FunPiano-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		FF7304381154DC0700E82C03 /* centerBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = centerBar.png; path = images/centerBar.png; sourceTree = "<group>"; };
+		FF7BBD341154435B00393AF0 /* key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = key.png; path = images/key.png; sourceTree = "<group>"; };
+		FF7BBD39115456AC00393AF0 /* key1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = key1.png; path = images/key1.png; sourceTree = "<group>"; };
+		FF7BBD3A115456AC00393AF0 /* key2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = key2.png; path = images/key2.png; sourceTree = "<group>"; };
+		FF7BBD3B115456AC00393AF0 /* key3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = key3.png; path = images/key3.png; sourceTree = "<group>"; };
+		FF7BBD3C115456AC00393AF0 /* key4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = key4.png; path = images/key4.png; sourceTree = "<group>"; };
+		FF7BBD3D115456AC00393AF0 /* key5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = key5.png; path = images/key5.png; sourceTree = "<group>"; };
+		FF7BBD3E115456AC00393AF0 /* keyS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = keyS.png; path = images/keyS.png; sourceTree = "<group>"; };
+		FF7BBD9011545D5500393AF0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FF7BBDE5115461E300393AF0 /* KeyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyViewController.h; sourceTree = "<group>"; };
+		FF7BBDE6115461E300393AF0 /* KeyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyViewController.m; sourceTree = "<group>"; };
+		FF7BBDE7115461E300393AF0 /* KeyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KeyViewController.xib; sourceTree = "<group>"; };
+		FF807E6F115581350014B3E7 /* key1_Phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = key1_Phone.png; path = images/key1_Phone.png; sourceTree = "<group>"; };
+		FF807E70115581350014B3E7 /* key2_Phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = key2_Phone.png; path = images/key2_Phone.png; sourceTree = "<group>"; };
+		FF807E71115581350014B3E7 /* key3_Phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = key3_Phone.png; path = images/key3_Phone.png; sourceTree = "<group>"; };
+		FF807E72115581350014B3E7 /* key4_Phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = key4_Phone.png; path = images/key4_Phone.png; sourceTree = "<group>"; };
+		FF807E73115581350014B3E7 /* key5_Phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = key5_Phone.png; path = images/key5_Phone.png; sourceTree = "<group>"; };
+		FF807E74115581350014B3E7 /* keyS_Phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = keyS_Phone.png; path = images/keyS_Phone.png; sourceTree = "<group>"; };
+		FF807E7B115581440014B3E7 /* key_Phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = key_Phone.png; path = images/key_Phone.png; sourceTree = "<group>"; };
+		FF807EF2115591890014B3E7 /* Piano-3C.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Piano-3C.aif"; path = "Shared/Sounds/Piano-3C.aif"; sourceTree = SOURCE_ROOT; };
+		FF807EF3115591890014B3E7 /* Piano-3Cs.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Piano-3Cs.aif"; path = "Shared/Sounds/Piano-3Cs.aif"; sourceTree = SOURCE_ROOT; };
+		FF807EF4115591890014B3E7 /* Piano-3D.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Piano-3D.aif"; path = "Shared/Sounds/Piano-3D.aif"; sourceTree = SOURCE_ROOT; };
+		FF807EF5115591890014B3E7 /* Piano-3Ds.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Piano-3Ds.aif"; path = "Shared/Sounds/Piano-3Ds.aif"; sourceTree = SOURCE_ROOT; };
+		FF807EF6115591890014B3E7 /* Piano-3E.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Piano-3E.aif"; path = "Shared/Sounds/Piano-3E.aif"; sourceTree = SOURCE_ROOT; };
+		FF807EF7115591890014B3E7 /* Piano-3F.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Piano-3F.aif"; path = "Shared/Sounds/Piano-3F.aif"; sourceTree = SOURCE_ROOT; };
+		FF807EF8115591890014B3E7 /* Piano-3Fs.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Piano-3Fs.aif"; path = "Shared/Sounds/Piano-3Fs.aif"; sourceTree = SOURCE_ROOT; };
+		FF807EF9115591890014B3E7 /* Piano-3G.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Piano-3G.aif"; path = "Shared/Sounds/Piano-3G.aif"; sourceTree = SOURCE_ROOT; };
+		FF807EFA115591890014B3E7 /* Piano-3Gs.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Piano-3Gs.aif"; path = "Shared/Sounds/Piano-3Gs.aif"; sourceTree = SOURCE_ROOT; };
+		FF807F04115591910014B3E7 /* Piano-3A.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Piano-3A.aif"; path = "Shared/Sounds/Piano-3A.aif"; sourceTree = SOURCE_ROOT; };
+		FF807F05115591910014B3E7 /* Piano-3As.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Piano-3As.aif"; path = "Shared/Sounds/Piano-3As.aif"; sourceTree = SOURCE_ROOT; };
+		FF807F06115591910014B3E7 /* Piano-3B.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Piano-3B.aif"; path = "Shared/Sounds/Piano-3B.aif"; sourceTree = SOURCE_ROOT; };
+		FF807F0A1155919A0014B3E7 /* Piano-4C.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Piano-4C.aif"; path = "Shared/Sounds/Piano-4C.aif"; sourceTree = SOURCE_ROOT; };
+		FF807F0B1155919A0014B3E7 /* Piano-4Cs.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Piano-4Cs.aif"; path = "Shared/Sounds/Piano-4Cs.aif"; sourceTree = SOURCE_ROOT; };
+		FF807F0C1155919A0014B3E7 /* Piano-4D.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Piano-4D.aif"; path = "Shared/Sounds/Piano-4D.aif"; sourceTree = SOURCE_ROOT; };
+		FF807F0D1155919A0014B3E7 /* Piano-4Ds.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Piano-4Ds.aif"; path = "Shared/Sounds/Piano-4Ds.aif"; sourceTree = SOURCE_ROOT; };
+		FF807F0E1155919A0014B3E7 /* Piano-4E.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Piano-4E.aif"; path = "Shared/Sounds/Piano-4E.aif"; sourceTree = SOURCE_ROOT; };
+		FF807F0F1155919A0014B3E7 /* Piano-4F.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Piano-4F.aif"; path = "Shared/Sounds/Piano-4F.aif"; sourceTree = SOURCE_ROOT; };
+		FF807F101155919A0014B3E7 /* Piano-4Fs.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Piano-4Fs.aif"; path = "Shared/Sounds/Piano-4Fs.aif"; sourceTree = SOURCE_ROOT; };
+		FF807F111155919A0014B3E7 /* Piano-4G.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Piano-4G.aif"; path = "Shared/Sounds/Piano-4G.aif"; sourceTree = SOURCE_ROOT; };
+		FF807F121155919A0014B3E7 /* Piano-4Gs.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Piano-4Gs.aif"; path = "Shared/Sounds/Piano-4Gs.aif"; sourceTree = SOURCE_ROOT; };
+		FF807F1C115591A20014B3E7 /* Piano-4A.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Piano-4A.aif"; path = "Shared/Sounds/Piano-4A.aif"; sourceTree = SOURCE_ROOT; };
+		FF807F1D115591A20014B3E7 /* Piano-4As.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Piano-4As.aif"; path = "Shared/Sounds/Piano-4As.aif"; sourceTree = SOURCE_ROOT; };
+		FF807F1E115591A20014B3E7 /* Piano-4B.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Piano-4B.aif"; path = "Shared/Sounds/Piano-4B.aif"; sourceTree = SOURCE_ROOT; };
+		FF807F22115591A90014B3E7 /* Piano-5C.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Piano-5C.aif"; path = "Shared/Sounds/Piano-5C.aif"; sourceTree = SOURCE_ROOT; };
+		FF92A1991155768700930E6D /* KeyViewController_Phone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyViewController_Phone.h; sourceTree = "<group>"; };
+		FF92A19A1155768700930E6D /* KeyViewController_Phone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyViewController_Phone.m; sourceTree = "<group>"; };
+		FF92A19B1155768700930E6D /* KeyViewController_Phone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KeyViewController_Phone.xib; sourceTree = "<group>"; };
+		FF92A1A71155770400930E6D /* KeySound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeySound.h; sourceTree = "<group>"; };
+		FF92A1A81155770400930E6D /* KeySound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeySound.m; sourceTree = "<group>"; };
+		FFD89C2E1156F2990065424B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = images/Default.png; sourceTree = "<group>"; };
+		FFD89C381156F4720065424B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = images/Default.png; sourceTree = "<group>"; };
+		FFD89C58115702D60065424B /* key1_T.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = key1_T.png; path = images/teach/key1_T.png; sourceTree = "<group>"; };
+		FFD89C59115702D60065424B /* key2_T.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = key2_T.png; path = images/teach/key2_T.png; sourceTree = "<group>"; };
+		FFD89C5A115702D60065424B /* key3_T.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = key3_T.png; path = images/teach/key3_T.png; sourceTree = "<group>"; };
+		FFD89C5B115702D60065424B /* key4_T.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = key4_T.png; path = images/teach/key4_T.png; sourceTree = "<group>"; };
+		FFD89C5C115702D60065424B /* key5_T.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = key5_T.png; path = images/teach/key5_T.png; sourceTree = "<group>"; };
+		FFD89C5D115702D60065424B /* key6_T.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = key6_T.png; path = images/teach/key6_T.png; sourceTree = "<group>"; };
+		FFD89C5E115702D60065424B /* keyS_T.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = keyS_T.png; path = images/teach/keyS_T.png; sourceTree = "<group>"; };
+		FFD89D5011571A4E0065424B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		FFD89D991157231C0065424B /* icon_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_ipad.png; sourceTree = "<group>"; };
+		FFE1CC421156CDCD00C7B733 /* refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = refresh.png; path = images/refresh.png; sourceTree = "<group>"; };
+		FFE1CC661156D5D000C7B733 /* key6_Phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = key6_Phone.png; path = images/key6_Phone.png; sourceTree = "<group>"; };
+		FFE1CC681156D5E100C7B733 /* key6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = key6.png; path = images/key6.png; sourceTree = "<group>"; };
+		FFE1CC721156D96A00C7B733 /* up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = up.png; path = images/up.png; sourceTree = "<group>"; };
+		FFE1CC741156D96F00C7B733 /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = down.png; path = images/down.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				FF7BBD9111545D5500393AF0 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* FunPiano.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2860E324111B887F00E27156 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				FF807E65115580AF0014B3E7 /* images */,
+				2860E325111B887F00E27156 /* AppDelegate_Phone.h */,
+				2860E326111B887F00E27156 /* AppDelegate_Phone.m */,
+				2860E327111B887F00E27156 /* MainWindow_Phone.xib */,
+				FF92A1991155768700930E6D /* KeyViewController_Phone.h */,
+				FF92A19A1155768700930E6D /* KeyViewController_Phone.m */,
+				FF92A19B1155768700930E6D /* KeyViewController_Phone.xib */,
+				FFD89D5011571A4E0065424B /* icon.png */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		2860E32A111B888700E27156 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				FF807E64115580A50014B3E7 /* images */,
+				2860E32B111B888700E27156 /* AppDelegate_Pad.h */,
+				2860E32C111B888700E27156 /* AppDelegate_Pad.m */,
+				2860E32D111B888700E27156 /* MainWindow_Pad.xib */,
+				FF7BBDE5115461E300393AF0 /* KeyViewController.h */,
+				FF7BBDE6115461E300393AF0 /* KeyViewController.m */,
+				FF7BBDE7115461E300393AF0 /* KeyViewController.xib */,
+				FFD89D991157231C0065424B /* icon_ipad.png */,
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		28EEBF621118D79A00187D67 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				FF92A1A71155770400930E6D /* KeySound.h */,
+				FF92A1A81155770400930E6D /* KeySound.m */,
+				FF7BBD5F11545C3B00393AF0 /* Sounds */,
+				8D1107310486CEB800E47090 /* FunPiano-Info.plist */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				2860E32A111B888700E27156 /* iPad */,
+				2860E324111B887F00E27156 /* iPhone */,
+				28EEBF621118D79A00187D67 /* Shared */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* FunPiano_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF7BBD9011545D5500393AF0 /* AudioToolbox.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF7BBD5F11545C3B00393AF0 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				FF807EF2115591890014B3E7 /* Piano-3C.aif */,
+				FF807EF3115591890014B3E7 /* Piano-3Cs.aif */,
+				FF807EF4115591890014B3E7 /* Piano-3D.aif */,
+				FF807EF5115591890014B3E7 /* Piano-3Ds.aif */,
+				FF807EF6115591890014B3E7 /* Piano-3E.aif */,
+				FF807EF7115591890014B3E7 /* Piano-3F.aif */,
+				FF807EF8115591890014B3E7 /* Piano-3Fs.aif */,
+				FF807EF9115591890014B3E7 /* Piano-3G.aif */,
+				FF807EFA115591890014B3E7 /* Piano-3Gs.aif */,
+				FF807F04115591910014B3E7 /* Piano-3A.aif */,
+				FF807F05115591910014B3E7 /* Piano-3As.aif */,
+				FF807F06115591910014B3E7 /* Piano-3B.aif */,
+				FF807F0A1155919A0014B3E7 /* Piano-4C.aif */,
+				FF807F0B1155919A0014B3E7 /* Piano-4Cs.aif */,
+				FF807F0C1155919A0014B3E7 /* Piano-4D.aif */,
+				FF807F0D1155919A0014B3E7 /* Piano-4Ds.aif */,
+				FF807F0E1155919A0014B3E7 /* Piano-4E.aif */,
+				FF807F0F1155919A0014B3E7 /* Piano-4F.aif */,
+				FF807F101155919A0014B3E7 /* Piano-4Fs.aif */,
+				FF807F111155919A0014B3E7 /* Piano-4G.aif */,
+				FF807F121155919A0014B3E7 /* Piano-4Gs.aif */,
+				FF807F1C115591A20014B3E7 /* Piano-4A.aif */,
+				FF807F1D115591A20014B3E7 /* Piano-4As.aif */,
+				FF807F1E115591A20014B3E7 /* Piano-4B.aif */,
+				FF807F22115591A90014B3E7 /* Piano-5C.aif */,
+			);
+			name = Sounds;
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		FF807E64115580A50014B3E7 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				FFD89C2E1156F2990065424B /* Default.png */,
+				FF7BBD341154435B00393AF0 /* key.png */,
+				FF7BBD39115456AC00393AF0 /* key1.png */,
+				FF7BBD3A115456AC00393AF0 /* key2.png */,
+				FF7BBD3B115456AC00393AF0 /* key3.png */,
+				FF7BBD3C115456AC00393AF0 /* key4.png */,
+				FF7BBD3D115456AC00393AF0 /* key5.png */,
+				FF7BBD3E115456AC00393AF0 /* keyS.png */,
+				FFE1CC681156D5E100C7B733 /* key6.png */,
+				FFD89C58115702D60065424B /* key1_T.png */,
+				FFD89C59115702D60065424B /* key2_T.png */,
+				FFD89C5A115702D60065424B /* key3_T.png */,
+				FFD89C5B115702D60065424B /* key4_T.png */,
+				FFD89C5C115702D60065424B /* key5_T.png */,
+				FFD89C5D115702D60065424B /* key6_T.png */,
+				FFD89C5E115702D60065424B /* keyS_T.png */,
+				FF7304381154DC0700E82C03 /* centerBar.png */,
+				FFE1CC421156CDCD00C7B733 /* refresh.png */,
+				FFE1CC721156D96A00C7B733 /* up.png */,
+				FFE1CC741156D96F00C7B733 /* down.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		FF807E65115580AF0014B3E7 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				FFD89C381156F4720065424B /* Default.png */,
+				FF807E7B115581440014B3E7 /* key_Phone.png */,
+				FF807E6F115581350014B3E7 /* key1_Phone.png */,
+				FF807E70115581350014B3E7 /* key2_Phone.png */,
+				FF807E71115581350014B3E7 /* key3_Phone.png */,
+				FF807E72115581350014B3E7 /* key4_Phone.png */,
+				FF807E73115581350014B3E7 /* key5_Phone.png */,
+				FF807E74115581350014B3E7 /* keyS_Phone.png */,
+				FFE1CC661156D5D000C7B733 /* key6_Phone.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* FunPiano */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "FunPiano" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FunPiano;
+			productName = FunPiano;
+			productReference = 1D6058910D05DD3D006BFB54 /* FunPiano.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FunPiano" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* FunPiano */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2860E329111B887F00E27156 /* MainWindow_Phone.xib in Resources */,
+				2860E32F111B888700E27156 /* MainWindow_Pad.xib in Resources */,
+				FF7BBD361154435B00393AF0 /* key.png in Resources */,
+				FF7BBD3F115456AC00393AF0 /* key1.png in Resources */,
+				FF7BBD40115456AC00393AF0 /* key2.png in Resources */,
+				FF7BBD41115456AC00393AF0 /* key3.png in Resources */,
+				FF7BBD42115456AC00393AF0 /* key4.png in Resources */,
+				FF7BBD43115456AC00393AF0 /* key5.png in Resources */,
+				FF7BBD44115456AC00393AF0 /* keyS.png in Resources */,
+				FF7BBDE9115461E300393AF0 /* KeyViewController.xib in Resources */,
+				FF7304391154DC0700E82C03 /* centerBar.png in Resources */,
+				FF92A19D1155768700930E6D /* KeyViewController_Phone.xib in Resources */,
+				FF807E75115581350014B3E7 /* key1_Phone.png in Resources */,
+				FF807E76115581350014B3E7 /* key2_Phone.png in Resources */,
+				FF807E77115581350014B3E7 /* key3_Phone.png in Resources */,
+				FF807E78115581350014B3E7 /* key4_Phone.png in Resources */,
+				FF807E79115581350014B3E7 /* key5_Phone.png in Resources */,
+				FF807E7A115581350014B3E7 /* keyS_Phone.png in Resources */,
+				FF807E7C115581440014B3E7 /* key_Phone.png in Resources */,
+				FF807EFB115591890014B3E7 /* Piano-3C.aif in Resources */,
+				FF807EFC115591890014B3E7 /* Piano-3Cs.aif in Resources */,
+				FF807EFD115591890014B3E7 /* Piano-3D.aif in Resources */,
+				FF807EFE115591890014B3E7 /* Piano-3Ds.aif in Resources */,
+				FF807EFF115591890014B3E7 /* Piano-3E.aif in Resources */,
+				FF807F00115591890014B3E7 /* Piano-3F.aif in Resources */,
+				FF807F01115591890014B3E7 /* Piano-3Fs.aif in Resources */,
+				FF807F02115591890014B3E7 /* Piano-3G.aif in Resources */,
+				FF807F03115591890014B3E7 /* Piano-3Gs.aif in Resources */,
+				FF807F07115591910014B3E7 /* Piano-3A.aif in Resources */,
+				FF807F08115591910014B3E7 /* Piano-3As.aif in Resources */,
+				FF807F09115591910014B3E7 /* Piano-3B.aif in Resources */,
+				FF807F131155919A0014B3E7 /* Piano-4C.aif in Resources */,
+				FF807F141155919A0014B3E7 /* Piano-4Cs.aif in Resources */,
+				FF807F151155919A0014B3E7 /* Piano-4D.aif in Resources */,
+				FF807F161155919A0014B3E7 /* Piano-4Ds.aif in Resources */,
+				FF807F171155919A0014B3E7 /* Piano-4E.aif in Resources */,
+				FF807F181155919A0014B3E7 /* Piano-4F.aif in Resources */,
+				FF807F191155919A0014B3E7 /* Piano-4Fs.aif in Resources */,
+				FF807F1A1155919A0014B3E7 /* Piano-4G.aif in Resources */,
+				FF807F1B1155919A0014B3E7 /* Piano-4Gs.aif in Resources */,
+				FF807F1F115591A20014B3E7 /* Piano-4A.aif in Resources */,
+				FF807F20115591A20014B3E7 /* Piano-4As.aif in Resources */,
+				FF807F21115591A20014B3E7 /* Piano-4B.aif in Resources */,
+				FF807F23115591A90014B3E7 /* Piano-5C.aif in Resources */,
+				FFE1CC431156CDCE00C7B733 /* refresh.png in Resources */,
+				FFE1CC671156D5D000C7B733 /* key6_Phone.png in Resources */,
+				FFE1CC691156D5E100C7B733 /* key6.png in Resources */,
+				FFE1CC731156D96A00C7B733 /* up.png in Resources */,
+				FFE1CC751156D96F00C7B733 /* down.png in Resources */,
+				FFD89C2F1156F2990065424B /* Default.png in Resources */,
+				FFD89C391156F4720065424B /* Default.png in Resources */,
+				FFD89C5F115702D60065424B /* key1_T.png in Resources */,
+				FFD89C60115702D60065424B /* key2_T.png in Resources */,
+				FFD89C61115702D60065424B /* key3_T.png in Resources */,
+				FFD89C62115702D60065424B /* key4_T.png in Resources */,
+				FFD89C63115702D60065424B /* key5_T.png in Resources */,
+				FFD89C64115702D60065424B /* key6_T.png in Resources */,
+				FFD89C65115702D60065424B /* keyS_T.png in Resources */,
+				FFD89D5111571A4E0065424B /* icon.png in Resources */,
+				FFD89D9A1157231C0065424B /* icon_ipad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				2860E328111B887F00E27156 /* AppDelegate_Phone.m in Sources */,
+				2860E32E111B888700E27156 /* AppDelegate_Pad.m in Sources */,
+				FF7BBDE8115461E300393AF0 /* KeyViewController.m in Sources */,
+				FF92A19C1155768700930E6D /* KeyViewController_Phone.m in Sources */,
+				FF92A1A91155770400930E6D /* KeySound.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FunPiano_Prefix.pch;
+				INFOPLIST_FILE = "FunPiano-Info.plist";
+				PRODUCT_NAME = FunPiano;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FunPiano_Prefix.pch;
+				INFOPLIST_FILE = "FunPiano-Info.plist";
+				PRODUCT_NAME = FunPiano;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FFD89D17115718100065424B /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Newton Inc.";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "07425BC6-219E-4342-8ED8-6FE6B46D8C93";
+				SDKROOT = iphoneos3.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Distribution;
+		};
+		FFD89D18115718100065424B /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Newton Inc.";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FunPiano_Prefix.pch;
+				INFOPLIST_FILE = "FunPiano-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				PRODUCT_NAME = FunPiano;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "07425BC6-219E-4342-8ED8-6FE6B46D8C93";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "FunPiano" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				FFD89D18115718100065424B /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FunPiano" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				FFD89D17115718100065424B /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
